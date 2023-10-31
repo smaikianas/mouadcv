@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  html {
+      width:100%;
+      background:linear-gradient(rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.473)), url(R.jfif);
+      background-size: cover;background-repeat: no-repeat;
+
+  }
+  body{min-height: 100vh;}
+  
+  div {
+    border:2px rgb(3, 8, 59) solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 350px;
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 50%;
+  }
+
+
+  img{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  h1{
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family:  'Londrina Solid', cursive;
+  }
+h1,footer{
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.15px black;
+}
+p,li{
+    padding: 4px;
+    padding-right: 8px;
+    margin-left: 50px;
+    font-family:  'AR One Sans', sans-serif;
+    font-weight: bolder;
+}
+pre{
+    padding: 4px;
+    padding-right: 8px;
+    margin-left: 50px;
+    font-family:  'AR One Sans', sans-serif;
+    font-weight: bolder;
+}
+h3{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  text-decoration: underline;
+  font-family:  'Londrina Solid', cursive;
+}
+h1{font-size: 45px;}
+p,pre{padding-left: 10px;
+    color: aliceblue;
+    }
+
+h2{color: rgb(255, 255, 255);
+    font-family:  'Londrina Solid', cursive;
+    -webkit-text-stroke:0;}
+footer{
+    padding-top: 10px;
+    background:linear-gradient(rgba(255, 255, 255, 0.336),rgba(255, 255, 255, 0.281))
+}
